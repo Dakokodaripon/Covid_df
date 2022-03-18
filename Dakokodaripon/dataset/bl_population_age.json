@@ -17,6 +17,7 @@
 				"container": "population"
 			},
 			"columnDelimiter": ",",
+			"compressionCodec": "gzip",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""

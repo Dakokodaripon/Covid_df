@@ -1,0 +1,26 @@
+{
+	"name": "bl_population_age",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_covidreportingsai23",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "blob_storage"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "population_by_age.tsv.gz",
+				"container": "population"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

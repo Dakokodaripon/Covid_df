@@ -1,0 +1,9 @@
+{
+	"name": "david-covid-project",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b121b915-afe7-4890-b833-4124c6c96103",
+		"tenantId": "a7c2b855-a593-481e-90f5-adc5d9ed95ce"
+	}
+}
